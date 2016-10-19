@@ -2,7 +2,7 @@ FROM quay.io/letsencrypt/letsencrypt
 
 MAINTAINER Eli Mallon <eli@iame.li>
 
-ENV KUBE_LATEST_VERSION="v1.1.3"
+ENV KUBE_LATEST_VERSION="v1.4.0"
 ENV KUBE_URL="https://github.com/kubernetes/kubernetes/releases/download/${KUBE_LATEST_VERSION}/kubernetes.tar.gz"
 
 # No curl or wget -- what the hey, let's just download kubernetes with a python one-liner.
